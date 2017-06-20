@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="VerifyCode">
+        <attr name="VerifyCode_codeTextSize" format="dimension"/>
+        <attr name="VerifyCode_codeBackground" format="color"/>
+        <attr name="VerifyCode_codeLengt" format="integer"/>
+        <attr name="VerifyCode_isContainChar" format="boolean"/>
+        <attr name="VerifyCode_pointNum" format="integer"/>
+        <attr name="VerifyCode_linNum" format="integer"/>
+
+    </declare-styleable>
+</resources>

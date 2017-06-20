@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <com.yalantis.jellytoolbar.widget.JellyToolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingStart="@dimen/activity_horizontal_margin"
+        app:cancelIcon="@mipmap/ic_close"
+        app:endColor="#8463d4"
+        app:icon="@mipmap/ic_search"
+        app:startColor="#cb5ed9"
+        app:title="News feed"
+        app:titleTextColor="@android:color/white" />
+
+</LinearLayout>

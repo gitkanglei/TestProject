@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    >
+
+    <TextView
+        android:id="@+id/tx"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World!"/>
+    <ImageView
+        android:layout_below="@id/tx"
+        android:id="@+id/image"
+        android:layout_width="50dp"
+        android:layout_height="50dp"/>
+    <com.pptv.mylistviewadapter.verifyCodeView.verifyCodeView
+        android:id="@+id/verify"
+        android:layout_below="@id/image"
+        android:layout_width="50dp"
+        android:layout_height="40dp"/>
+
+    <com.pptv.mylistviewadapter.verifyCodeView.RippleView
+        android:id="@+id/ripple"
+        android:layout_below="@id/verify"
+        android:layout_width="150dp"
+        android:layout_height="150dp"/>
+
+    <com.pptv.mylistviewadapter.view.GoodView
+        android:id="@+id/goodView"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/ripple"
+        android:layout_width="100dp"
+        android:layout_height="100dp"></com.pptv.mylistviewadapter.view.GoodView>
+
+    <com.pptv.mylistviewadapter.view.leftSwipeLayout
+        android:id="@+id/code_view"
+        android:layout_below="@id/goodView"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"/>
+</RelativeLayout>
